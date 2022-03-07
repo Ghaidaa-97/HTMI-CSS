@@ -1,0 +1,24 @@
+.a{
+    width:100px; 
+    height: 100px;
+    background-color: blue;
+    transition: width 2s;
+}
+
+.b{
+     width: 100px;
+     height: 100px; 
+     background-color: deeppink; 
+     transition-delay:1s ;
+     transition-duration:.5s;
+     transition-property:all;
+}
+
+.a:hover{
+    width:200px;
+}
+
+.b:hover{
+    width:200px;
+    height:200px;
+}

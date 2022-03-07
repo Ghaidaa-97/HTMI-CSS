@@ -1,0 +1,44 @@
+
+
+.a{
+    width: 40px;
+    height: 115px; 
+    background-color: rgb(0, 0, 0); 
+    border-radius: 10%;
+}
+.b{
+    width: 25px;
+    height: 25px;
+    transition-duration:.5s;
+    transition-property:background-color;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.b:hover{
+   background-color: rgb(252, 11, 11);
+}
+.c{
+    width: 25px;
+    height: 25px;
+    transition-duration:.5s;
+    transition-property:background-color;
+    border-radius: 50%;
+    background-color: gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.c:hover{
+    background-color: rgb(252, 236, 11);
+ }
+ .d{
+    width: 25px;
+    height: 25px;
+    transition-duration:.5s;
+    transition-property:background-color;
+    border-radius: 50%;
+    background-color: gray;
+}
+.d:hover{
+    background-color: rgb(84, 185, 37);
+ }

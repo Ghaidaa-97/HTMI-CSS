@@ -1,0 +1,21 @@
+.a{
+    width: 100px;
+    height: 100px; 
+
+    background-color: rgb(219, 172, 17); 
+    border-radius: 10%;
+    position: relative;
+    animation-name: circle;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes circle {
+    0%   { left:0; top:0; background-color: blue;}
+    25%  { left:500px; top:0; background-color: green;}
+    50%  {left:500px; top:500px; background-color: blueviolet;}
+    75%  { left:0;top:500px ;background-color: darkmagenta;}
+    100% { left:0px; top:0px; background-color: brown;}
+}                                                                                                                 
